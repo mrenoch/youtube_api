@@ -3,10 +3,10 @@ bootstrap:
 	ve/bin/pip install --requirement requirements/requirements.txt
 
 clean-creds:
-	rm ~/.credentials/calendar-python-quickstart.json
-	rm ~/.credentials/calendar-python-gccnmtl-calendars.json
+	rm like_video.py-oauth2.json
+	rm upload_video.py-oauth2.json
 
 clean:
-	rm ~/.credentials/calendar-python-quickstart.json
-	rm ~/.credentials/calendar-python-gccnmtl-calendars.json
+	rm like_video.py-oauth2.json
+	rm upload_video.py-oauth2.json
 	rm -rf ve
